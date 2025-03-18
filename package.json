@@ -2,10 +2,10 @@
   "name": "online-auction-json-server",
   "version": "1.0.0",
   "description": "Deploy json-server to Vercel for online-auction",
-  "main": "server.js",
+  "main": "api/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/server.js"
   },
   "dependencies": {
     "json-server": "^0.17.4"
